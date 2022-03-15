@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+
+    <title>Light and Sound Memory Game</title>
+
+    <!-- Meta tags for SEO and social sharing -->
+    <link rel="canonical" href="https://glitch-hello-website.glitch.me/" />
+    <meta
+      name="description"
+      content="A basic light and sound memory game!"
+    />
+    <meta name="robots" content="index,follow" />
+    <meta property="og:title" content="Light and Sound Memory Game" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://glitch-hello-website.glitch.me/" />
+    <meta
+      property="og:description"
+      content="A basic light and sound memory game!"
+    />
+    <meta
+      property="og:image"
+      content="https://cdn.glitch.com/605e2a51-d45f-4d87-a285-9410ad350515%2Fhello-website-social.png?v=1616712748147"
+    />
+    <meta name="twitter:card" content="summary" />
+
+    <!-- Import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- Import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+
+    <!-- The wrapper and content divs set margins and positioning -->
+    <div class="wrapper">
+      <div class="content" role="main">
+        <h1 class="title">Light and Sound Memory Game</h1>
+        <h2>
+          Welcome to the game!
+        </h2>
+        <p id = "instruction">
+          Listen carefully and repeat back the pattern you hear to win! Good luck playing :)
+        </p>
+        <button id = "startBtn" onclick = "startGame()">
+          Start
+        </button>
+        <button id = "stopBtn" class = "hidden" onclick = "stopGame()">
+          Stop
+        </button>
+        <div id = "livesArea">
+          <p>
+            Lives:
+          </p>
+          <img id = "heart1" src = "https://cdn.glitch.global/63ac6305-7435-4931-914c-e003bbf9735e/heart.png?v=1647366993702" alt="heart">
+          <img id = "heart2" src = "https://cdn.glitch.global/63ac6305-7435-4931-914c-e003bbf9735e/heart.png?v=1647366993702" alt="heart">
+          <img id = "heart3" src = "https://cdn.glitch.global/63ac6305-7435-4931-914c-e003bbf9735e/heart.png?v=1647366993702" alt="heart">
+        </div>
+        <div id = "gameButtonArea">
+          <button id = "button1" onmousedown="startTone(1)" onmouseup="stopTone(1)" onclick = "guess(1)"><img id = "img1" width = "60px" alt="watermelon" src = "https://cdn.glitch.global/63ac6305-7435-4931-914c-e003bbf9735e/watermelon.png?v=1647331441370" class = "hidden-img"></button>
+          <button id = "button2" onmousedown="startTone(2)" onmouseup="stopTone(2)" onclick = "guess(2)"><img id = "img2" width = "60px" alt="blueberry" src = "https://cdn.glitch.global/63ac6305-7435-4931-914c-e003bbf9735e/Screen%20Shot%202022-03-15%20at%205.33.55%20AM.png?v=1647336840344" class = "hidden-img"></button>
+          <button id = "button3" onmousedown="startTone(3)" onmouseup="stopTone(3)" onclick = "guess(3)"><img id = "img3" width = "60px" alt="apple" src = "https://cdn.glitch.global/63ac6305-7435-4931-914c-e003bbf9735e/red%20apple.png?v=1647331984661" class = "hidden-img"></button>
+          <button id = "button4" onmousedown="startTone(4)" onmouseup="stopTone(4)" onclick = "guess(4)"><img id = "img4" width = "60px" alt="lemon" src = "https://cdn.glitch.global/63ac6305-7435-4931-914c-e003bbf9735e/lemon.png?v=1647332556029" class = "hidden-img"></button>
+          <button id = "button5" onmousedown="startTone(5)" onmouseup="stopTone(5)" onclick = "guess(5)"><img id = "img5" width = "60px" alt="orange" src = "https://cdn.glitch.global/63ac6305-7435-4931-914c-e003bbf9735e/orange.jpeg?v=1647332850172" class = "hidden-img"></button>
+          <button id = "button6" onmousedown="startTone(6)" onmouseup="stopTone(6)" onclick = "guess(6)"><img id = "img6" width = "60px" alt="grapes" src = "https://cdn.glitch.global/63ac6305-7435-4931-914c-e003bbf9735e/grapes.png?v=1647332942659" class = "hidden-img"></button>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      Light and Sound Memory Game
+    </footer>
+  </body>
+</html>
