@@ -40,16 +40,25 @@ The following **additional** features are implemented:
 ## Video Walkthrough (GIF)
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
+
+**Light and Sound - Top & Basic Features**
+
+![Light and Sound - Top](https://github.com/kfang00/CodePath-Prework/blob/main/gifs/Light%20and%20Sound%20-%20Top.gif?raw=true)
+
 **Light and Sound - Fail**
+
 ![Light and Sound - Fail](https://github.com/kfang00/CodePath-Prework/blob/main/gifs/Light%20and%20Sound%20-%20Fail.gif?raw=true)
 
 **Light and Sound - Success Part 1**
+
 ![Light and Sound - Success 1](https://github.com/kfang00/CodePath-Prework/blob/main/gifs/Light%20and%20Sound%20-%20Success%201.gif?raw=true)
 
 **Light and Sound - Success Part 2**
+
 ![Light and Sound - Success 2](https://github.com/kfang00/CodePath-Prework/blob/main/gifs/Light%20and%20Sound%20-%20Success%202.gif?raw=true)
 
 **Light and Sound - Responsive**
+
 ![Light and Sound - Responsive](https://github.com/kfang00/CodePath-Prework/blob/main/gifs/Light%20and%20Sound%20-%20Responsive.gif?raw=true)
 
 ## Reflection Questions
