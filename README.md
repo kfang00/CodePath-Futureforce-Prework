@@ -63,22 +63,27 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
-[YOUR ANSWER HERE]
+
+    I ended up using the w3schools site to refresh my knowledge on how to style certain elements.  For instance, I didn’t remember how to do a box shadow.  Furthermore, I also used these two specific links to gain a better understanding of media queries and how Javascript Random works:
+https://www.w3schools.com/css/css3_mediaqueries.asp
+https://www.w3schools.com/js/js_random.asp
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
-[YOUR ANSWER HERE]
+
+    I ran into an issue when I was implementing the optional features.  I wanted to make the game more personalized so I attempted to spruce up my buttons with images.  I was able to place them in correctly and resize them, but the buttons would no longer align correctly.  I could’ve made all the images the same size, but the objects in the images would not be.  I was messing with the sizes, margins, and padding for a while, but it wasn’t working.  The buttons would stubbornly remain staggered.  However, since the objects in the images were not the same sizes, the next thing I attempted to do was crop the image.  I consulted the internet and found that you could wrap an image in a div.  Set the div to a certain width and height and then hide the overflow.  I managed to get the cropping working but it was still not solving the issue.  So far I’ve only been messing with the image, so I tried thinking about this from a different angle and removed the cropping.  What if I just changed the way I laid out the buttons?  I ended up changing the buttons to use a grid layout with 3 columns, and it worked!  Furthermore, in order to make it more responsive, the grid would change to 2 columns on smaller screens.
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
-[YOUR ANSWER HERE]
+
+    There are several questions that I have after completing my submission.  Even though I have experience with HTML and CSS, I haven’t really experimented with vanilla JS so I really liked learning about it in this project.  The questions that I have are, “Are there any companies that create their websites using vanilla JS or do most of them use JS libraries like React?” and “What are the benefits of using either?”  The other questions I have pertain to website organization: “How can I arrange the elements on the screen to make it more intuitive for the user and to draw attention to the desired areas?”
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
-[YOUR ANSWER HERE]
 
+    If I had a few more hours to work on this project, I would implement the last two optional features which are the ticking clock and the personalized sound effects.  I have never used audio before in my previous projects so I would like to experiment more with it.  My current theme is fruits, but with more time, I would flush out my theme more and find sounds that are compatible.  It would also be nice to add levels in which the clue playback gets faster and faster and the sequences get longer.  I believe the game would be more fun that way.  Finally, I would make my own pop ups instead of using the alert function as that would be more aesthetically pleasing.
 
 
 ## Interview Recording URL Link
 
-[My 5-minute Interview Recording](your-link-here)
+[My 5-minute Interview Recording](https://youtu.be/ACu64Vdpi-k)
 
 
 ## License
